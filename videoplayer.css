@@ -1,0 +1,94 @@
+body {
+	background-color: #1a0e1c;;
+	background-image: url(icons/cartographer.png);
+}
+
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:  #ff8080;
+	text-align: center;
+}
+
+#video {
+	z-index: 0;
+	width: 1280px;
+	height: 720px;
+}
+
+.video-embed {
+	display: block;
+	width: 1280px;
+	margin: 0 auto 35px;
+}
+
+#video-controls {
+  margin-top: -50px;
+  z-index: 1000;
+  background: none;
+  opacity: 0;
+  position: absolute;
+}
+
+.video-embed:hover #video-controls {
+	opacity: 1;
+}
+
+#play-pause {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+#timeplayed,
+#timeduration {
+	color: white;
+	font-weight: bold;
+}
+
+#seek-bar {
+	width: 1000px;
+}
+
+#mute {
+	border: none;
+	background: none;
+	outline: none;
+	padding-left: 25px;
+}
+
+#full-screen {
+	border: none;
+	background: none;
+	outline: none;
+	padding-left: 30px;
+}
+
+
+button:hover {
+	cursor: pointer;
+}
+
+
+p {
+	text-align: left;
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #ff8080;
+	width: 1300px;
+	margin: auto;
+}
+
+.transcript {
+  color: #ff471a;
+  text-decoration: underline;
+  
+}
+
+
+
+
+
+
+
+
